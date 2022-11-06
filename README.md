@@ -1,91 +1,62 @@
-# Voron Zero
+# Voron uPoint_Zero_Zero
 
-![Image of Voron Zero](http://vorondesign.com/images/voron0.1_bg.jpg)
-
-The official release of the Voron Zero 3d printer.  You can find the BOM in the configurator located at the [Voron Design]( http://vorondesign.com/voron0) website.
-
-The current revision is V0.1.
-
-## Highlights
-- Compact and portable
-- 120x120x120 build volume
-- CoreXY
-- Low mass direct drive extruder
-- Enclosed chamber
-- 24v DC bed simplifies electronics
-- Klipper firmware
-
-## Release History
-### V0.1 (2021 April)
-
-A majority of the printed parts have changed. The configurator will give you an idea of parts needed if you are upgrading from V0.0.
-
-**Toolhead**
-- New design: Mini Afterburner
-- Direct Drive Extruder with BMG gears and pancake motor with 10 tooth spur gear
-- Improved part cooling ducts (fans are same as V0.0)
-- Supports Mosquitto, Dragon, Dragonfly mounts
-- V6 mount too large for DDE (bowden still an option)
-
-**Z motor**
-- Simplified to use Nema17 integrated T8x8 200mm leadscrew and printed mount (highly recommended upgrade)
-
-**Drive units**
-- A/B steppers changed to larger 40Ncm motors for increased torque (optional upgrade)
-- Parts are now embossed with “A” or “B” respectively to avoid improper assembly
-- Motor screws are countersunk to add more thread engagement 
-- Panel mount point added
-
-**Frame**
-- No changes
-
-**Electronics**
-- Move from AC to 24v 60 watt DC bed (no more SSR)
-- 150 watt PSU (larger to support DC bed)
-- Fused AC power inlet (now with switch)
-- SKR moves to rear compartment and Mini E3 V2.0 now spec
-- PSU terminal cover
-
-**Tophat**
-- All panels have changed
-- Front and rear are now straight vertical to accommodate new toolhead
-- Sides went from 15° to 10°
-- 10mm taller all around
-- Lower panel clips are built into frame mounts
-
-**Panels/clips**
-- Front deck panel is unchanged
-- Mid and back panel has various holes removed (can use your V0.0 panels)
-- Rear deck panel is gone
-- Motor panel is added (can be printed later)
-- Side windows and door are unchanged
-- Rear upper panel clips have an added mount point
-
-**X/Y Joints**
-- Hex nuts replaced with threaded inserts
-- Idlers replaced by F623 bearing stack (hole adjusted to align perfectly in CAD)
-- Endstop block changed to be compatible with DD toolhead
-- Inaccessible bottom gantry screw holes removed
-
-**Bed Assembly**
-- Rear mounts extended 3mm to account for DD toolhead position changes
-- Z chain mount adjusted to accommodate off-the-shelf chain or printed beltchain
-- Zip tie mounts added for cable routing
-- Removed horizontal bolt hole to prevent over-constraining assembly 
-- Front mount reduced in size for less plastic use
-- Printed thumb screws for bed adjustments
-
-**Feet/Skirts**
-- Extended to accommodate 34mm Z motor
-
-**Front Idlers**
-- No changes
+![u](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/u.001.png)
 
 
-### V0.0 Updates and fixes (2020 Sept)
-See https://github.com/VoronDesign/Voron-0/releases/tag/V0.0r1
 
-### V0.0 Initial release (2020 April)
-See https://github.com/VoronDesign/Voron-0/releases/tag/V0.0
+The mod of the Voron V0.1 [Voron Design]( http://vorondesign.com/voron0) aimed for precize 3-d printing.
 
-![Voron Logo](http://vorondesign.com/images/voron_design_logo.png)
+## Aims
+**Precize prints**
+- 0.025 level height
+- 0.1 nozzle
+- less than 0.01 roughtness of the prints
+
+**Toolchanger (WiP)**
+It will take forewer (~ one year) to print 120x120x120mm cube with 0.1mm nozzle so the toolchanger is requred. 
+A laser, microscope, ASML tools will be supported. 
+
+SLA instrumentation is in a far plans.
+
+**Minimal changes**
+The goal is to make the upgrade in minimal efforts.
+
+**Maintain the benifits**
+The V0.1 is the great printer. The modified u.001 should maintain the capability to the high accelerations and velocity, so the introduced weight is minimal.
+
+
+## Differencies
+- [Rigid bed design inspired of Voron Trident.](/README.md#Bed)
+- [The extruder with high reduction ratio and minimal filament path for 0.1 nozzle](/README.md#Extruder)
+- [Toolchanger](/README.md#Toolchanger)
+- [Carbone tube for X axis (optional)](/README.md#Gauntry)
+- [Bowden tool](/README.md#Bowden)
+
+## Bed
+![BED](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/bed.png)
+
+## Extruder
+![extr1](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/toytan_1.png)
+![extr2](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/toytan_2.png)
+![extr3](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/toytan_3.png)
+
+## Toolchanger
+**WIP**
+![tool](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool.png)
+V0 carriage
+![tool_0](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool_1.png)
+V1
+![tool_1](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool_2.png)
+V2
+![tool_2](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool_2.png)
+
+## Gauntry
+Just tube, guide, GT2 16T pulley and nesseary parts
+
+## Bowden
+**WIP**
+![bowden](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/bowden_2.png)
+![bowden](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/bowden_3.png)
+Air flow part cooling modelling
+![bowden](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/bowden_1.png)
+
