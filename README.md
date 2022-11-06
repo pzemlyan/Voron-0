@@ -42,15 +42,19 @@ The V0.1 is the great printer. The modified u.001 should maintain the capability
 
 ## Toolchanger
 **WIP**
+
 ![tool](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool.png)
 
 V0 carriage
-![tool_0](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool_1.png)
+
+![tool_0](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool_0.png)
 
 V1
-![tool_1](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool_2.png)
+
+![tool_1](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool_1.png)
 
 V2
+
 ![tool_2](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/tool_2.png)
 
 ## Gauntry
@@ -64,6 +68,7 @@ Just tube, guide, GT2 16T pulley and nesseary parts
 ![bowden](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/bowden_3.png)
 
 Air flow part cooling modelling
+
 ![bowden](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/bowden_1.png)
 
 ## Roadmap
