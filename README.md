@@ -36,6 +36,9 @@ The V0.1 is the great printer. The modified u.001 should maintain the capability
 ![BED](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/bed.png)
 
 ## Extruder
+
+**based on** [Toytan effector](https://3dtoday.ru/3d-models/detali-dlya-3d-printerov/chasti-printera/toytan)
+
 ![extr1](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/toytan_1.png)
 ![extr2](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/toytan_2.png)
 ![extr3](https://github.com/pzemlyan/Voron-0/blob/Voron0.1/Manuals/img/toytan_3.png)
